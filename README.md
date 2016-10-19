@@ -11,10 +11,21 @@ Then it will iterate through the rest of the array and set `largest_so_far` to e
 
 # Levenshtein's Distance O(log n)
 [example in use](https://www.codewars.com/kata/did-you-mean-dot-dot-dot/solutions?show-solutions=1)
+
 An algorithm for calculating how close a word is to another. Starts by chiseling things from the end.
 
 # Deep Copy of Linked List O(n)
 [source](https://gist.github.com/qwergram/f6cb9848dd67e528bea1bb7a299fad52)
+
 I actually got this problem at a Microsoft Tech Screening. I was unable to solve it the first time on a whiteboard, but later re-wrote it here so I could sleep at night.
 
 The problem is this: You have a singly linked list with a pointer at the next item, and a random pointer that could point to another node in the list, itself, or null. Make a deep copy of this linked list.
+
+# Find the Outlier O(n)
+[source](https://www.codewars.com/kata/find-the-parity-outlier/train/python)
+
+You have an array where either is true:
+- It's full of odd numbers and one is even
+- It's full of even numbers and one is odd
+
+Find out which is the case.
